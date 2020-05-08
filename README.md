@@ -1,6 +1,6 @@
 # Creating Private Catalog tiles in IBM Cloud
 
-    This document explains about how to create Private Catalog tiles in IBM cloud. Here we are going to create  below two tiles using the terraform scripts.
+This document explains about how to create Private Catalog tiles in IBM cloud. Here we are going to create  below two tiles using the terraform scripts.
 
 ```
     Access Group
@@ -9,7 +9,7 @@
 
 # 1. Create Private Catalog in IBM Cloud
 
-    Create a private catalog called `Gan-Catalog` using the steps below.
+Create a private catalog called `Gan-Catalog` using the steps below.
 
 <details><summary>CLICK ME</summary>
 <br></br>
@@ -20,7 +20,7 @@
 
 2. Click on `Private Catalogs` .
 
-    It shows the private catalogs list.
+It shows the private catalogs list.
 
 <img src="images/1-PrivateCatalog-02-click-privatecatalog.png" width="600">
 <br></br>
@@ -37,7 +37,7 @@
 
 5. Click on `Create` button in the above screen.
 
-    It shows the created private catalog screen with empty product/tiles list. 
+It shows the created private catalog screen with empty product/tiles list. 
 
 <img src="images/1-PrivateCatalog-05-add-product.png" width="600">
 <br></br>
@@ -46,7 +46,7 @@
 
 # 2. Create "Access Group" Product/Tile in Private Catalog
 
-    Here are the steps. 
+Here are the steps. 
 
 <details><summary>CLICK ME</summary>
 
@@ -56,13 +56,14 @@
 
 <img src="images/AddCatalogProduct-ag-02-addproduct-1.png" width="600">
 <br></br>
-    The `tgz` it is a compressed form of a terraform scripts that we want to execute on click of this tile.
 
-    Here we are giving the below `tgz` file.
+The `tgz` it is a compressed form of a terraform scripts that we want to execute on click of this tile.
 
-    https://github.com/GandhiCloudLab/ibm-cloud-private-catalog-iam-ag/blob/master/tgz/AccessGroup-0.0.1.tgz
+Here we are giving the below `tgz` file.
 
-    The explanation about the terraform files are given under following sections.
+https://github.com/GandhiCloudLab/ibm-cloud-private-catalog-iam-ag/blob/master/tgz/AccessGroup-0.0.1.tgz
+
+The explanation about the terraform files are given under following sections.
 
 3. It reads .tgz file and shows the `content type` and `name`.
 
@@ -71,7 +72,7 @@
 
 4. The product is created and need to update few more details..
 
-    Click on the "Select at least .." link.
+Click on the "Select at least .." link.
 
 <img src="images/AddCatalogProduct-ag-03-updateproduct-3.png" width="600">
 <br></br>
@@ -83,9 +84,9 @@
 
 6. Enter the `Documentation URL` and `Short Description` details.
 
-    The documentation url, is the readme file that could keep it in your terraform scripts folder.
+The documentation url, is the readme file that could keep it in your terraform scripts folder.
 
-    https://github.com/GandhiCloudLab/ibm-cloud-private-catalog-iam-ag/blob/master/terraform/accessgroup/readme.md
+https://github.com/GandhiCloudLab/ibm-cloud-private-catalog-iam-ag/blob/master/terraform/accessgroup/readme.md
 
 <img src="images/AddCatalogProduct-ag-03-updateproduct-5.png" width="600">
 <br></br>
@@ -107,14 +108,14 @@
 
 10. Click on the `Publish to Account` button to publish the Product/Tile.
 
-    You can see the status of the Validate here, before you publish.
+You can see the status of the Validate here, before you publish.
 
 <img src="images/AddCatalogProduct-ag-06-publish.png" width="600">
 <br></br>
 
 11. The Product/Tile is published.
 
-    You can click on `Gan-Catalog` to go back to Private Catalog page. 
+You can click on `Gan-Catalog` to go back to Private Catalog page. 
 
 <img src="images/AddCatalogProduct-ag-07-published.png" width="600">
 
@@ -123,7 +124,7 @@
 
 # 3. Create "Access Group and Access Policies" Product/Tile in Private Catalog
 
-    Here are the steps. The steps are similar to the above Product/Tile. But it has some additional steps for parameters externalization.
+Here are the steps. The steps are similar to the above Product/Tile. But it has some additional steps for parameters externalization.
 
 <details><summary>CLICK ME</summary>
 
@@ -137,19 +138,19 @@
 <img src="images/AddCatalogProduct-AGAP-02-addproduct-2.png" width="600">
 <br></br>
 
-    The `tgz` it is a compressed form of a terraform scripts that we want to execute on click of this tile.
+The `tgz` it is a compressed form of a terraform scripts that we want to execute on click of this tile.
 
-    Here we are giving the below `tgz` file. 
+Here we are giving the below `tgz` file. 
 
-    https://github.com/GandhiCloudLab/ibm-cloud-private-catalog-iam-ag/blob/master/tgz/AccessGroup-AccessPolicy-0.0.1.tgz
+https://github.com/GandhiCloudLab/ibm-cloud-private-catalog-iam-ag/blob/master/tgz/AccessGroup-AccessPolicy-0.0.1.tgz
 
-    The explanation about the terraform files are given under following sections.
+The explanation about the terraform files are given under following sections.
 
 3. It reads .tgz file and shows `content type` and `name`.
 
 4. The product is created and need to update few more details..
 
-    Click on the "Select at least .." link.
+Click on the "Select at least .." link.
 
 <img src="images/AddCatalogProduct-AGAP-02-addproduct-3-configure.png" width="600">
 <br></br>
@@ -163,9 +164,9 @@
 
 6. Enter the `Documentation URL` and `Short Description` details.
 
-    The documentation url, is the readme file that could keep it in your terraform scripts folder.
+The documentation url, is the readme file that could keep it in your terraform scripts folder.
 
-    https://github.com/GandhiCloudLab/ibm-cloud-private-catalog-iam-ag/blob/master/terraform/accessgroup-accesspolicy/readme.md
+https://github.com/GandhiCloudLab/ibm-cloud-private-catalog-iam-ag/blob/master/terraform/accessgroup-accesspolicy/readme.md
 
 <img src="images/AddCatalogProduct-AGAP-03-updateproduct-3-desc.png" width="600">
 <br></br>
@@ -175,7 +176,7 @@
 <img src="images/AddCatalogProduct-AGAP-03-updateproduct-4-param-1.png" width="600">
 <br></br>
 
-    It display the values like this from the terrraform scripts.
+It display the values like this from the terrraform scripts.
 
 <img src="images/AddCatalogProduct-AGAP-03-updateproduct-4-param-2.png" width="600">
 <br></br>
@@ -185,7 +186,7 @@
 <img src="images/AddCatalogProduct-AGAP-03-updateproduct-4-param-3.png" width="600">
 <br></br>
 
-    It display the values like this.
+It display the values like this.
 
 <img src="images/AddCatalogProduct-AGAP-03-updateproduct-4-param-4.png" width="600">
 <br></br>
@@ -207,14 +208,14 @@
 
 13. Click on the `Publish to Account` button to publish the Product/Tile.
 
-    You can see the status of the Validate here, before you publish.
+You can see the status of the Validate here, before you publish.
 
 <img src="images/AddCatalogProduct-AGAP-03-updateproduct-8-publish.png" width="600">
 <br></br>
 
 14. The Product/Tile is published.
 
-    You can click on `Gan-Catalog` to go back to Private Catalog page. 
+You can click on `Gan-Catalog` to go back to Private Catalog page. 
 
 <img src="images/AddCatalogProduct-AGAP-03-updateproduct-9-publsihed.png" width="600">
 <br></br>
@@ -230,7 +231,7 @@
 
 # 4. View Private Catalog Tiles. 
 
-    Here are the steps to view the Private Catalog tiles.
+Here are the steps to view the Private Catalog tiles.
 
 <details><summary>CLICK ME</summary>
 
@@ -254,7 +255,7 @@
 
 # 5. Run Tile - "Access Group"
 
-    Here are the steps to run the tile `Access Group`
+Here are the steps to run the tile `Access Group`
 
 <details><summary>CLICK ME</summary>
 
@@ -312,7 +313,7 @@
 
 # 6. Run Tile - "Access Group and Access Policies" 
 
-    Here are the steps to run the tile `Access Group and Access Policies`. The steps are similar to the above Product/Tile. But it has some additional steps for parameters externalization.
+Here are the steps to run the tile `Access Group and Access Policies`. The steps are similar to the above Product/Tile. But it has some additional steps for parameters externalization.
 
 <details><summary>CLICK ME</summary>
 
@@ -369,71 +370,71 @@
 
 # 7. Terraform Scripts
 
-    This section explains about how the Terraform scripts, tgz files and readme files are organized for this Private Catalog example.
+This section explains about how the Terraform scripts, tgz files and readme files are organized for this Private Catalog example.
 
 <details><summary>CLICK ME</summary>
 
-    The root folder of this GIT repo contains the below folders.
+The root folder of this GIT repo contains the below folders.
 
-    ```
-        terraform
-        tgz
-        install
-    ```
+```
+    terraform
+    tgz
+    install
+```
 
 <img src="images/Terraform01-root.png" width="600">
 <br></br>
 
 ## 7.1 terraform
 
-    The terraform folder contains the 2 folders to have terraform scripts for those 2 tiles.
+The terraform folder contains the 2 folders to have terraform scripts for those 2 tiles.
 
 <img src="images/Terraform02-terraform.png" width="600">
 <br></br>
 
 ### accessgroup tile
 
-    Access group tile contains the below files.
+Access group tile contains the below files.
 
 <img src="images/Terraform03-ag-files.png" width="600">
 <br></br>
 
-    Here is the main file.
+Here is the main file.
 
 <img src="images/Terraform05-ag-details.png" width="600">
 <br></br>
 
 ### accessgroup-accesspolicy tile
 
-    Access Group and Access Policy tile contains the below files.
+Access Group and Access Policy tile contains the below files.
 
 <img src="images/Terraform06-agap-files.png" width="600">
 <br></br>
 
-    Here is the main file.
+Here is the main file.
 
 <img src="images/Terraform07-agap-details.png" width="600">
 <br></br>
 
-        Here is the external parameter related variables.
+Here is the external parameter related variables.
 
 <img src="images/Terraform07-agap-variables.png" width="600">
 <br></br>
 
 ## 7.2 tgz
 
-    Contains .tgz files of the terraform scripts
+Contains .tgz files of the terraform scripts
 
 <img src="images/Terraform08-tgz-files.png" width="600">
 <br></br>
 
-    Note : Here .tgz files are stored in the tgz folder. As a best practice it should be stored as part of the Git Tag Release.
+Note : Here .tgz files are stored in the tgz folder. As a best practice it should be stored as part of the Git Tag Release.
 
 ## 7.3 install
 
-    Contains script files to create tgz files from the terraform folder. 
+Contains script files to create tgz files from the terraform folder. 
 
-    You can run `2-create-tgz-commit.sh` file to create tgz file and commit to git.
+You can run `2-create-tgz-commit.sh` file to create tgz file and commit to git.
 
 <img src="images/Terraform08-tgz-files.png" width="600">
 <br></br>

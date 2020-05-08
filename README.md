@@ -1,6 +1,6 @@
 # Creating Private Catalog tiles in IBM Cloud
 
-This document explains about how to create Private Catalog tiles in IBM cloud. Here we are going to create  below two tiles using the terraform scripts.
+    This document explains about how to create Private Catalog tiles in IBM cloud. Here we are going to create  below two tiles using the terraform scripts.
 
 ```
     Access Group
@@ -9,7 +9,7 @@ This document explains about how to create Private Catalog tiles in IBM cloud. H
 
 # 1. Create Private Catalog in IBM Cloud
 
-Create a private catalog called `Gan-Catalog` using the steps below.
+    Create a private catalog called `Gan-Catalog` using the steps below.
 
 <details><summary>CLICK ME</summary>
 <br></br>
@@ -46,7 +46,7 @@ Create a private catalog called `Gan-Catalog` using the steps below.
 
 # 2. Create "Access Group" Product/Tile in Private Catalog
 
-Here are the steps. 
+    Here are the steps. 
 
 <details><summary>CLICK ME</summary>
 
@@ -123,7 +123,7 @@ Here are the steps.
 
 # 3. Create "Access Group and Access Policies" Product/Tile in Private Catalog
 
-Here are the steps. The steps are similar to the above Product/Tile. But it has some additional steps for parameters externalization.
+    Here are the steps. The steps are similar to the above Product/Tile. But it has some additional steps for parameters externalization.
 
 <details><summary>CLICK ME</summary>
 
@@ -214,7 +214,7 @@ Here are the steps. The steps are similar to the above Product/Tile. But it has 
 
 14. The Product/Tile is published.
 
-Y   ou can click on `Gan-Catalog` to go back to Private Catalog page. 
+    You can click on `Gan-Catalog` to go back to Private Catalog page. 
 
 <img src="images/AddCatalogProduct-AGAP-03-updateproduct-9-publsihed.png" width="600">
 <br></br>
@@ -230,7 +230,7 @@ Y   ou can click on `Gan-Catalog` to go back to Private Catalog page.
 
 # 4. View Private Catalog Tiles. 
 
-Here are the steps to view the Private Catalog tiles.
+    Here are the steps to view the Private Catalog tiles.
 
 <details><summary>CLICK ME</summary>
 
@@ -254,7 +254,7 @@ Here are the steps to view the Private Catalog tiles.
 
 # 5. Run Tile - "Access Group"
 
-Here are the steps to run the tile `Access Group`
+    Here are the steps to run the tile `Access Group`
 
 <details><summary>CLICK ME</summary>
 
@@ -292,7 +292,7 @@ Here are the steps to run the tile `Access Group`
 
 <img src="images/RunTile-AG-06-apply-plan-completed.png" width="600">
 
-8. Here is the logs.
+8. Here are the logs.
 
 <img src="images/RunTile-AG-07-logs.png" width="600">
 <br></br>
@@ -312,7 +312,7 @@ Here are the steps to run the tile `Access Group`
 
 # 6. Run Tile - "Access Group and Access Policies" 
 
-Here are the steps to run the tile `Access Group and Access Policies`. The steps are similar to the above Product/Tile. But it has some additional steps for parameters externalization.
+    Here are the steps to run the tile `Access Group and Access Policies`. The steps are similar to the above Product/Tile. But it has some additional steps for parameters externalization.
 
 <details><summary>CLICK ME</summary>
 
@@ -369,17 +369,17 @@ Here are the steps to run the tile `Access Group and Access Policies`. The steps
 
 # 7. Terraform Scripts
 
-This section explains about how the Terraform scripts, tgz files and readme files are organized for this Private Catalog example.
+    This section explains about how the Terraform scripts, tgz files and readme files are organized for this Private Catalog example.
 
 <details><summary>CLICK ME</summary>
 
-The root folder of this GIT repo contains the below folders.
+    The root folder of this GIT repo contains the below folders.
 
-```
-    terraform
-    tgz
-    install
-```
+    ```
+        terraform
+        tgz
+        install
+    ```
 
 <img src="images/Terraform01-root.png" width="600">
 <br></br>
@@ -410,7 +410,7 @@ The root folder of this GIT repo contains the below folders.
 <img src="images/Terraform06-agap-files.png" width="600">
 <br></br>
 
-Here is the main file.
+    Here is the main file.
 
 <img src="images/Terraform07-agap-details.png" width="600">
 <br></br>
@@ -431,7 +431,7 @@ Here is the main file.
 
 ## 7.3 install
 
-    ontains script files to create tgz files from the terraform folder. 
+    Contains script files to create tgz files from the terraform folder. 
 
     You can run `2-create-tgz-commit.sh` file to create tgz file and commit to git.
 

@@ -17,6 +17,7 @@ Create a private catalog called `Gan-Catalog` using the steps below.
 
 <img src="images/1-PrivateCatalog-01-click-catalog.png" width="600">
 
+<br>
 
 2. Click on `Private Catalogs` .
 
@@ -24,21 +25,19 @@ It shows the private catalogs list.
 
 <img src="images/1-PrivateCatalog-02-click-privatecatalog.png" width="600">
 
-
+<br>
 
 3. Click on `Create`.
 
 <img src="images/1-PrivateCatalog-03-click-create.png" width="600">
 
-
-
+<br>
 
 4. Enter the details.
 
 <img src="images/1-PrivateCatalog-04-create.png" width="600">
 
-
-
+<br>
 
 5. Click on `Create` button in the above screen.
 
@@ -46,8 +45,7 @@ It shows the created private catalog screen with empty product/tiles list.
 
 <img src="images/1-PrivateCatalog-05-add-product.png" width="600">
 
-
-
+<br>
 
 </details>
 
@@ -75,8 +73,7 @@ https://github.com/GandhiCloudLab/ibm-cloud-private-catalog-iam-ag/blob/master/t
 
 <img src="images/AddCatalogProduct-ag-02-addproduct-3.png" width="600">
 
-
-
+<br>
 
 4. The product is created and need to update few more details..
 
@@ -84,15 +81,13 @@ Click on the "Select at least .." link.
 
 <img src="images/AddCatalogProduct-ag-03-updateproduct-3.png" width="600">
 
-
-
+<br>
 
 5. Enter the `Product Name` and `Catagories and Filters` details.
 
 <img src="images/AddCatalogProduct-ag-03-updateproduct-4.png" width="600">
 
-
-
+<br>
 
 6. Enter the `Documentation URL` and `Short Description` details.
 
@@ -102,23 +97,33 @@ https://github.com/GandhiCloudLab/ibm-cloud-private-catalog-iam-ag/blob/master/t
 
 <img src="images/AddCatalogProduct-ag-03-updateproduct-5.png" width="600">
 
+<br>
+
 7. Enter the `Readme` details.
 
 <img src="images/AddCatalogProduct-ag-03-updateproduct-7-readme.png" width="600">
+
+<br>
 
 8. Click on the `Update` button to save the changes.
 
 <img src="images/AddCatalogProduct-ag-04-update.png" width="600">
 
+<br>
+
 9. Click on the `Validate` button to validate the terraform script.
 
 <img src="images/AddCatalogProduct-ag-05-validate.png" width="600">
+
+<br>
 
 10. Click on the `Publish to Account` button to publish the Product/Tile.
 
 You can see the status of the Validate here, before you publish.
 
 <img src="images/AddCatalogProduct-ag-06-publish.png" width="600">
+
+<br>
 
 11. The Product/Tile is published.
 

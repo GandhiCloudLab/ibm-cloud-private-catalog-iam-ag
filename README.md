@@ -1,4 +1,4 @@
-# Creating IBM Cloud Private Catalog Tiles
+# Creating Private Catalog Tiles in IBM Cloud
 
 This document explains about how to create Private Catalog tiles in IBM cloud. Here we are going to create the below two tiles using terraform scripts.
 

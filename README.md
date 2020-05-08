@@ -223,7 +223,7 @@ Here are the steps to view the Private Catalog tiles.
 </details>
 
 
-# 4. Run Tile - "Access Group"
+# 5. Run Tile - "Access Group"
 
 Here are the steps to run the tile `Access Group`
 
@@ -245,7 +245,7 @@ Here are the steps to run the tile `Access Group`
 
 <img src="images/RunTile-AG-03-readme-doc.png" >
 
-5. Click on `Install` link, run the tile to create acccess group in the IAM.
+5. Click on `Install` link, run the tile to create access group in the IAM.
 
 <img src="images/RunTile-AG-04-install.png" >
 
@@ -272,7 +272,7 @@ Here are the steps to run the tile `Access Group`
 </details>
 
 
-# 5. Run Tile - "Access Group and Access Policies" 
+# 6. Run Tile - "Access Group and Access Policies" 
 
 Here are the steps to run the tile `Access Group and Access Policies`. The steps are similar to the above Product/Tile. But it has some additional steps for parameters externalization.
 
@@ -306,7 +306,7 @@ Here are the steps to run the tile `Access Group and Access Policies`. The steps
 
 <img src="images/RunTile-AGAP-06-param-modify.png" >
 
-8. Click on `Install` link in the above screen to run the tile to create acccess group and access policies in the IAM.
+8. Click on `Install` link in the above screen to run the tile to create access group and access policies in the IAM.
 
 9. It shows `Apply Plan` which indicates the status of the execution and the execution is completed.
 
@@ -320,7 +320,7 @@ Here are the steps to run the tile `Access Group and Access Policies`. The steps
 </details>
 
 
-# 6. Terraform Scripts
+# 7. Terraform Scripts
 
 This section explains about how the Terraform scripts, tgz files and readme files are organized for this Private Catalog example.
 
@@ -336,7 +336,7 @@ The root folder of this GIT repo contains the below folders.
 
 <img src="images/Terraform01-root.png" >
 
-## 6.1 terraform
+## 7.1 terraform
 
 The terraform folder contains the 2 folders to have terraform scripts for those 2 tiles.
 
@@ -367,7 +367,7 @@ Here is the external parameter related variables.
 <img src="images/Terraform07-agap-variables.png" >
 
 
-## 6.2 tgz
+## 7.2 tgz
 
 Contains .tgz files of the terraform scripts
 
@@ -375,11 +375,11 @@ Contains .tgz files of the terraform scripts
 
 Note : Here .tgz files are stored in the tgz folder. As a best practice it should be stored as part of the Git Tag Release.
 
-## 6.3 install
+## 7.3 install
 
 Contains script files to create tgz files from the terraform folder. 
 
-You can run `2-create-tgz-commit.sh` file to create tgz file and commmit to git.
+You can run `2-create-tgz-commit.sh` file to create tgz file and commit to git.
 
 <img src="images/Terraform08-tgz-files.png" >
 

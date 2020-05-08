@@ -1,13 +1,13 @@
-# Creating Private Catalog tiles in IBM Cloud
+# Creating IBM Cloud Private Catalog Tiles
 
-This document explains about how to create Private Catalog tiles in IBM cloud. Here we are going to create  below two tiles using the terraform scripts.
+This document explains about how to create Private Catalog tiles in IBM cloud. Here we are going to create the below two tiles using terraform scripts.
 
 ```
     Access Group
     Assign Group and Access Policies
 ```
 
-# 1. Create Private Catalog in IBM Cloud
+## 1. Create Private Catalog in IBM Cloud
 
 Create a private catalog called `Gan-Catalog` using the steps below.
 
@@ -44,7 +44,7 @@ It shows the created private catalog screen with empty product/tiles list.
 
 </details>
 
-# 2. Create "Access Group" Product/Tile in Private Catalog
+## 2. Create "Access Group" Product/Tile in Private Catalog
 
 Here are the steps. 
 
@@ -122,7 +122,7 @@ You can click on `Gan-Catalog` to go back to Private Catalog page.
 </details>
 
 
-# 3. Create "Access Group and Access Policies" Product/Tile in Private Catalog
+## 3. Create "Access Group and Access Policies" Product/Tile in Private Catalog
 
 Here are the steps. The steps are similar to the above Product/Tile. But it has some additional steps for parameters externalization.
 
@@ -229,7 +229,7 @@ You can click on `Gan-Catalog` to go back to Private Catalog page.
 </details>
 
 
-# 4. View Private Catalog Tiles. 
+## 4. View Private Catalog Tiles. 
 
 Here are the steps to view the Private Catalog tiles.
 
@@ -253,7 +253,7 @@ Here are the steps to view the Private Catalog tiles.
 </details>
 
 
-# 5. Run Tile - "Access Group"
+## 5. Run Tile - "Access Group"
 
 Here are the steps to run the tile `Access Group`
 
@@ -311,7 +311,7 @@ Here are the steps to run the tile `Access Group`
 </details>
 
 
-# 6. Run Tile - "Access Group and Access Policies" 
+## 6. Run Tile - "Access Group and Access Policies" 
 
 Here are the steps to run the tile `Access Group and Access Policies`. The steps are similar to the above Product/Tile. But it has some additional steps for parameters externalization.
 
@@ -368,7 +368,7 @@ Here are the steps to run the tile `Access Group and Access Policies`. The steps
 </details>
 
 
-# 7. Terraform Scripts
+## 7. Terraform Scripts
 
 This section explains about how the Terraform scripts, tgz files and readme files are organized for this Private Catalog example.
 
@@ -385,14 +385,14 @@ The root folder of this GIT repo contains the below folders.
 <img src="images/Terraform01-root.png" width="600">
 <br></br>
 
-## 7.1 terraform
+### 7.1 terraform
 
 The terraform folder contains the 2 folders to have terraform scripts for those 2 tiles.
 
 <img src="images/Terraform02-terraform.png" width="600">
 <br></br>
 
-### accessgroup tile
+#### accessgroup tile
 
 Access group tile contains the below files.
 
@@ -404,7 +404,7 @@ Here is the main file.
 <img src="images/Terraform05-ag-details.png" width="600">
 <br></br>
 
-### accessgroup-accesspolicy tile
+#### accessgroup-accesspolicy tile
 
 Access Group and Access Policy tile contains the below files.
 
@@ -421,7 +421,7 @@ Here is the external parameter related variables.
 <img src="images/Terraform07-agap-variables.png" width="600">
 <br></br>
 
-## 7.2 tgz
+### 7.2 tgz
 
 Contains .tgz files of the terraform scripts
 
@@ -430,7 +430,7 @@ Contains .tgz files of the terraform scripts
 
 Note : Here .tgz files are stored in the tgz folder. As a best practice it should be stored as part of the Git Tag Release.
 
-## 7.3 install
+### 7.3 install
 
 Contains script files to create tgz files from the terraform folder. 
 
